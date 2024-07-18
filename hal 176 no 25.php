@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Belajar PHP</title>
+</head>
+<body>
+Pilih Tanggal :
+<select name="tgl">
+    <?php
+        for ($i= 1; $i <= 31; $i++) {
+            echo "<option value $1 $1 </option>";
+    }
+?>
+</select>
+Pilih Bulan :
+<select name="bln">
+    <?php
+        for ($i= 1; $i <= 12; $i++) {
+            echo "<option value Bulan-$1> Bulan-$1 </option>";
+        }
+        ?>
+</select>
+
+Pilih Tahun:
+<select name="thn">
+    <?php
+        for ($i = 1980; $i <= 2025; $i++) {
+        echo "<option value $i$i </option>";
+        }
+    ?>
+</select>
+</body>
+</html>
